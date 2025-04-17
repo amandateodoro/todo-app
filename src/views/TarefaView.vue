@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mt-5">
     <h1>Lista de Tarefas</h1>
 
     <button v-if="!abrirForm" @click="abrirForm = true">Nova Tarefa</button>
